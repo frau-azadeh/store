@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛍️ Next.js E-commerce Store
 
 Welcome to the Next.js E-commerce Store – a fully functional online shop built with modern web technologies. This project serves as an excellent hands-on learning experience in:
@@ -97,3 +98,7 @@ This project is designed to help you:
 
 Contributions are welcome! If you find a bug or have an idea for improvement, feel free to 
 submit a pull request. Developed with 🌻 by Azadeh Sharifi Soltani Feel free to connect and collaborate!
+=======
+# store
+store
+>>>>>>> d9bcb52a9bc9823ba1a449bcd11754ccbba7e84d
