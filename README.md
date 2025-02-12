@@ -59,7 +59,7 @@ For production deployment, use:
         npm run build
         npm start
 
-Check out the live [demo](https://.vercel.app)
+Check out the live [demo](https://store-tan-iota.vercel.app/)
 
 ## 📚 Tech Stack
 
