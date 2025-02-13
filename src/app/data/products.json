@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "لاله",
+      "price": 120,
+      "image": "/images/laleh.webp",
+      "category": "اداری"
+    },
+    {
+      "id": 2,
+      "name": "ساغر",
+      "price": 999,
+      "image": "/images/saghar.webp",
+      "category": "کتونی"
+    },
+    {
+      "id": 3,
+      "name": "مستانه",
+      "price": 199,
+      "image": "/images/mastaneh.webp",
+      "category": "مجلسی"
+    }
+  ]
+  
