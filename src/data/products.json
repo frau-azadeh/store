@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "لاله",
+    "price": 120,
+    "image": "/images/laleh.webp",
+    "category": "اداری",
+    "gender": "زنانه",
+    "sizes": [36, 37, 38, 39, 40],
+    "colors": ["مشکی", "قرمز", "سفید"]
+  },
+  {
+    "id": 2,
+    "name": "ساغر",
+    "price": 999,
+    "image": "/images/saghar.webp",
+    "category": "کتونی",
+    "gender": "اسپورت",
+    "sizes": [37, 38, 39, 40, 41],
+    "colors": ["آبی", "صورتی", "سبز"]
+  },
+  {
+    "id": 3,
+    "name": "مستانه",
+    "price": 199,
+    "image": "/images/mastane.webp",
+    "category": "مجلسی",
+    "gender": "زنانه",
+    "sizes": [35, 36, 37, 38],
+    "colors": ["طلایی", "نقره‌ای", "مشکی"]
+  }
+]
