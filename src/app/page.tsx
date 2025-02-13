@@ -1,4 +1,4 @@
-import ProductCard from "@/componets/ProductCard";
+import ProductCard from "@/components/ProductCard";
 import productsData from "@/data/products.json";
 import { Product } from "@/types/products";
 
