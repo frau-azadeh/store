@@ -22,18 +22,19 @@ export default function ProductCard({ product }: ProductCardProps) {
         className="w-full h-48 object-cover rounded-md mb-4"
       />
       <h3 className="text-lg font-bold">{name}</h3>
-      <p className="text-gray-600 text-sm">{category} - {gender}</p>
+      <p className="text-gray-600 text-sm">
+        {category} - {gender}
+      </p>
       <p className="text-gray-500 text-sm">سایزها: {sizes.join(", ")}</p>
       <p className="text-gray-500 text-sm">رنگ ها: {colors.join(", ")}</p>
       <p className="text-blue-500 font-bold">{price} تومان</p>
       <Button
-  onClick={() => console.log("افزودن به سبد")}
-  icon={<ShoppingCart size={18} />}
-  className="bg-blue-500 text-white hover:bg-blue-600"
->
-  افزودن به سبد خرید
-</Button>
-
+        onClick={() => console.log("افزودن به سبد")}
+        icon={<ShoppingCart size={18} />}
+        className="bg-blue-500 text-white hover:bg-blue-600"
+      >
+        افزودن به سبد خرید
+      </Button>
     </div>
   );
 }

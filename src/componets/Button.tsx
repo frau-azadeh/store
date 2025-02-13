@@ -9,7 +9,12 @@ interface ButtonProps {
   className?: string;
 }
 
-export default function Button({ children, onClick, icon, className = "" }: ButtonProps) {
+export default function Button({
+  children,
+  onClick,
+  icon,
+  className = "",
+}: ButtonProps) {
   return (
     <button
       onClick={onClick}
