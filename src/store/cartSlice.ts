@@ -34,7 +34,6 @@ const cartSlice = createSlice({
         state.items.push({ ...action.payload, quantity: 1 });
       }
 
-      // ذخیره در localStorage بعد از هر تغییر
       localStorage.setItem("cart", JSON.stringify(state.items));
     },
 
