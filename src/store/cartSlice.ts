@@ -1,6 +1,5 @@
 import { Product } from "@/types/products";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { stat } from "fs";
 
 const loadCartFormStorage = () =>{
     if(typeof window !== "undefined" ){
