@@ -25,7 +25,16 @@ const cartSlice = createSlice({
     name: "cart",
     initialState,
     reducers:{
-        
+        addToCart: (state, action: PlayloadAction<Product>)=>{
+            const exitingItem = state.items.find((item)=>item.id === action.playload.id);
+            if(exitingItem){
+                exitingItem.quantity += 1 ;
+            }else{
+                state.items.push({...action.playload, quantity: 1});
+            }
+            localStorage.setItem("cart", JSON.stringify(state.items));
+        },
+    
     }
 })
 
