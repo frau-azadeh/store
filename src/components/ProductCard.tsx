@@ -17,7 +17,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   const dispatch = useAppDispatch();
 
   const handleAddToCart = () => {
-    dispatch(addToCart(product));
+    dispatch(addToCart({ ...product, price: Number(product.price) })); // تبدیل price به عدد
     console.log("محصول اضافه شد:", product);
   };
 
