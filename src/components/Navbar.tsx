@@ -27,7 +27,7 @@ export default function Navbar() {
     }
 
     const results = productsData.filter((product) =>
-      product.name.toLowerCase().includes(searchQuery.toLowerCase())
+      product.name.toLowerCase().includes(searchQuery.toLowerCase()),
     );
 
     setSearchResults(results as Product[]);
@@ -58,7 +58,10 @@ export default function Navbar() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
-            <Search className="absolute right-2 top-2 text-gray-500" size={20} />
+            <Search
+              className="absolute right-2 top-2 text-gray-500"
+              size={20}
+            />
           </div>
 
           {/* نتایج جستجو */}
@@ -83,7 +86,10 @@ export default function Navbar() {
 
         {/* ورود و ثبت‌نام و سبد خرید */}
         <div className="hidden md:flex items-center gap-6">
-          <Link href="/login" className="flex items-center gap-1 text-gray-600 hover:text-blue-500">
+          <Link
+            href="/login"
+            className="flex items-center gap-1 text-gray-600 hover:text-blue-500"
+          >
             <User size={20} />
             <span>ورود | ثبت‌نام</span>
           </Link>
@@ -131,7 +137,10 @@ export default function Navbar() {
           </div>
 
           {/* ورود ثبت‌نام */}
-          <Link href="/login" className="flex items-center gap-1 text-gray-600 hover:text-blue-500">
+          <Link
+            href="/login"
+            className="flex items-center gap-1 text-gray-600 hover:text-blue-500"
+          >
             <User size={20} />
             <span>ورود | ثبت‌نام</span>
           </Link>

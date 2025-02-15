@@ -64,7 +64,8 @@ export default function ProductDetailPage({
         <div>
           <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
           <p className="text-gray-600 flex items-center gap-2 mb-3">
-            <Ruler size={18} className="text-gray-500" /> دسته‌بندی: {product.category} - {product.gender}
+            <Ruler size={18} className="text-gray-500" /> دسته‌بندی:{" "}
+            {product.category} - {product.gender}
           </p>
 
           {/* انتخاب سایز */}

@@ -18,7 +18,7 @@ export default function CheckoutPage() {
 
   const totalPrice = cartItems.reduce(
     (sum, item) => sum + item.price * item.quantity,
-    0
+    0,
   );
 
   return (
@@ -30,7 +30,10 @@ export default function CheckoutPage() {
         <div>
           <ul className="divide-y divide-gray-200">
             {cartItems.map((item) => (
-              <li key={item.id} className="flex items-center justify-between py-4">
+              <li
+                key={item.id}
+                className="flex items-center justify-between py-4"
+              >
                 <div className="flex items-center gap-4">
                   <Image
                     src={item.image}
@@ -54,7 +57,9 @@ export default function CheckoutPage() {
           </ul>
           <div className="flex justify-between items-center mt-6 border-t pt-4">
             <span className="text-lg font-bold">مجموع کل:</span>
-            <span className="text-xl font-bold text-green-600">{totalPrice} تومان</span>
+            <span className="text-xl font-bold text-green-600">
+              {totalPrice} تومان
+            </span>
           </div>
           <button className="w-full bg-green-500 text-white p-3 rounded-lg mt-4 hover:bg-green-600 transition">
             تایید و پرداخت

@@ -42,12 +42,12 @@ export default function CartPage() {
               <CardContent className="p-4 flex flex-col gap-4">
                 <div className="flex justify-between items-center">
                   <Image
-                        src={item.image}
-                        alt={item.name}
-                        width={80}
-                        height={80}
-                        className="rounded-lg object-cover"
-                   />
+                    src={item.image}
+                    alt={item.name}
+                    width={80}
+                    height={80}
+                    className="rounded-lg object-cover"
+                  />
                   <h2 className="text-lg font-semibold">{item.name}</h2>
                   <Button
                     variant="ghost"

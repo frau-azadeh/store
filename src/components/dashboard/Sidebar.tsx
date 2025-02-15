@@ -10,7 +10,10 @@ export default function Sidebar() {
 
   const MenuItems = () => (
     <nav className="space-y-2">
-      <Link href="/dashboard" className="block p-3 rounded-lg hover:bg-gray-100">
+      <Link
+        href="/dashboard"
+        className="block p-3 rounded-lg hover:bg-gray-100"
+      >
         داشبورد
       </Link>
       <Link href="/products" className="block p-3 rounded-lg hover:bg-gray-100">

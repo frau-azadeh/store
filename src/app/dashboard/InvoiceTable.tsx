@@ -1,7 +1,14 @@
 "use client";
 
 import { useAppSelector } from "@/store/hooks";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 
 export default function InvoiceTable() {
   const cartItems = useAppSelector((state) => state.cart.items);
