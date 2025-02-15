@@ -1,20 +1,18 @@
 import Navbar from "@/components/Navbar";
-import ProductCard from "@/components/ProductCard";
-import productsData from "@/data/products.json";
-import { Product } from "@/types/products";
+import Hero from "@/components/Hero";
+import Categories from "@/components/Categories";
+import FeaturedProducts from "@/components/FeaturedProducts";
+import ProductList from "@/components/ProductList";
 
 export default function HomePage() {
-  const products = productsData as Product[];
-
   return (
     <div>
-      <Navbar/>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 py-8">
-      {products.map((product) => (
-        <ProductCard key={product.id} product={product} />
-      ))}
+      <div className="container mx-auto px-4">
+        <Hero />
+        <Categories />
+        <FeaturedProducts />
+        <ProductList />
+      </div>
     </div>
-    </div>
-    
   );
 }
