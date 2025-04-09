@@ -16,7 +16,7 @@ React Hook Form for form management
 
 JWT Authentication for user authentication
 
-## 🚀 Features
+### 🚀 Features
 
 🏠 Home Page with featured products
 
@@ -34,7 +34,7 @@ JWT Authentication for user authentication
 
 ⚡ Optimized performance with Next.js ISR/SSG/SSR
 
-## 🛠️ Installation & Setup
+### 🛠️ Installation & Setup
 
 1.Clone the repository:
 
@@ -52,7 +52,7 @@ JWT Authentication for user authentication
 
 Your application will be available at http://localhost:3000
 
-## 🌍 Deployment
+### 🌍 Deployment
 
 For production deployment, use:
 
@@ -61,7 +61,7 @@ For production deployment, use:
 
 Check out the live [demo](https://store-tan-iota.vercel.app/)
 
-## 📚 Tech Stack
+### 📚 Tech Stack
 
 Frontend: Next.js, React, TypeScript
 
