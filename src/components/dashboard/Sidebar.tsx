@@ -3,7 +3,6 @@
 import Link from "next/link";
 
 export default function Sidebar() {
-
   const MenuItems = () => (
     <nav className="space-y-2">
       <Link
