@@ -7,7 +7,7 @@ import products from "@/data/products.json";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { ShoppingCart, Ruler, Palette } from "lucide-react";
+import { ShoppingCart, Ruler } from "lucide-react";
 import Image from "next/image";
 
 interface CartItem extends Product {

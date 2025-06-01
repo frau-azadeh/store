@@ -1,13 +1,8 @@
 "use client";
 
-import { Menu } from "lucide-react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Sidebar() {
-  const [open, setOpen] = useState(false);
-
   const MenuItems = () => (
     <nav className="space-y-2">
       <Link
