@@ -1,3 +1,4 @@
+import GoBackButton from "@/components/GoBackButton";
 import Image from "next/image";
 
 export default function NotFound(){
@@ -10,6 +11,7 @@ export default function NotFound(){
                 src="/images/not-found.png"
                 className="rounded-lg shadow-md hover:scale-105 transition duration-300"
             />
+            <GoBackButton/>
         </div>
     )
 }
