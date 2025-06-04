@@ -10,11 +10,11 @@ export default function Hero() {
         <p className="text-gray-700 mb-6">با بهترین کیفیت و قیمت‌های ویژه</p>
       </div>
       <Image
-        src="/images/hero-shoes.png"
+        src="/images/hero.png"
         alt="کفش"
         width={300}
         height={300}
-        className="object-cover"
+        className="object-cover w-full"
       />
     </div>
   );
