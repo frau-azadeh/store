@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Hero() {
@@ -9,9 +8,6 @@ export default function Hero() {
           جدیدترین مدل‌های کفش
         </h1>
         <p className="text-gray-700 mb-6">با بهترین کیفیت و قیمت‌های ویژه</p>
-        <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-          مشاهده محصولات
-        </Button>
       </div>
       <Image
         src="/images/hero-shoes.png"

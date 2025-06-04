@@ -5,8 +5,7 @@ import { addToCart } from "@/store/cartSlice";
 import { Product } from "@/types/products";
 import products from "@/data/products.json";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+
 import { ShoppingCart, Ruler } from "lucide-react";
 import Image from "next/image";
 
@@ -111,13 +110,6 @@ export default function ProductDetailPage({
           {/* تعداد */}
           <div className="flex items-center gap-4 mb-4">
             <span className="text-gray-700">تعداد:</span>
-            <Input
-              type="number"
-              value={quantity}
-              onChange={(e) => setQuantity(Number(e.target.value))}
-              className="w-16"
-              min={1}
-            />
           </div>
 
           {/* قیمت */}
@@ -125,15 +117,6 @@ export default function ProductDetailPage({
             {product.price.toLocaleString()} تومان
           </p>
         </div>
-
-        {/* دکمه افزودن به سبد */}
-        <Button
-          onClick={handleAddToCart}
-          className="bg-gradient-to-r from-blue-500 to-blue-700 text-white flex items-center gap-2 hover:opacity-90 transition"
-        >
-          <ShoppingCart size={20} />
-          افزودن به سبد خرید
-        </Button>
       </div>
     </div>
   );

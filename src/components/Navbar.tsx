@@ -91,6 +91,7 @@ export default function Navbar() {
             className="flex items-center gap-1 text-gray-600 hover:text-blue-500"
           >
             <User size={20} />
+
             <span>ورود | ثبت‌نام</span>
           </Link>
 
@@ -147,7 +148,9 @@ export default function Navbar() {
 
           {/* سبد خرید */}
           <div className="flex items-center gap-2">
-            <ShoppingCart size={24} />
+            <Link href="/dashboard">
+              <ShoppingCart size={24} />
+            </Link>
             <span>سبد خرید ({cartCount})</span>
           </div>
         </div>
