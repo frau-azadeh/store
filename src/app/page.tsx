@@ -5,7 +5,7 @@ import ProductList from "@/components/ProductList";
 
 export default function HomePage() {
   return (
-    <div >
+    <div>
       <div className="container mx-auto px-4">
         <Hero />
         <Categories />

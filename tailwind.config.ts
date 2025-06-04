@@ -12,8 +12,8 @@ const config: Config = {
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        },
       },
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };
