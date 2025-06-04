@@ -1,4 +1,3 @@
-import { ShoppingCart, DollarSign, Package } from "lucide-react";
 
 export default function DashboardPage() {
   return (
