@@ -26,10 +26,10 @@ export default function Footer() {
           <div className="lg:col-span-1 md:col-span-1 col-span-1 mt-4 ">
             <span className="text-base mb-5 block">درباره ما</span>
             <ul className="text-xs leading-6 text-gray-300 cursor-pointer">
-              <li>درباره کفش نفره</li>
+              <li>درباره کفش نقره</li>
               <li>گزارش سالانه</li>
               <li>فرصت های شغلی</li>
-              <li>مجله اینترنتی نفره</li>
+              <li>مجله اینترنتی نقره</li>
               <li>مستندات فنی</li>
             </ul>
           </div>

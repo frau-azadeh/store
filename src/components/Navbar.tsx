@@ -45,7 +45,7 @@ export default function Navbar() {
 
         {/* لوگو */}
         <h1 className="text-2xl font-bold cursor-pointer">
-          <Link href="/">فروشگاه کفش</Link>
+          <Link href="/">فروشگاه کفش نقره</Link>
         </h1>
 
         {/* باکس جستجو */}
