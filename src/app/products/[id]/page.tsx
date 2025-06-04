@@ -110,7 +110,6 @@ export default function ProductDetailPage({
           {/* تعداد */}
           <div className="flex items-center gap-4 mb-4">
             <span className="text-gray-700">تعداد:</span>
-           
           </div>
 
           {/* قیمت */}
@@ -118,8 +117,6 @@ export default function ProductDetailPage({
             {product.price.toLocaleString()} تومان
           </p>
         </div>
-
-       
       </div>
     </div>
   );

@@ -8,7 +8,6 @@ export default function Hero() {
           جدیدترین مدل‌های کفش
         </h1>
         <p className="text-gray-700 mb-6">با بهترین کیفیت و قیمت‌های ویژه</p>
-       
       </div>
       <Image
         src="/images/hero-shoes.png"
