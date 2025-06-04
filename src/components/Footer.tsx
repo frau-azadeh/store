@@ -1,4 +1,10 @@
-import { GithubIcon, Instagram, InstagramIcon, LinkedinIcon, TwitterIcon } from "lucide-react";
+import {
+  GithubIcon,
+  Instagram,
+  InstagramIcon,
+  LinkedinIcon,
+  TwitterIcon,
+} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -12,10 +18,10 @@ export default function Footer() {
               <li>شماره تماس: 02124000000</li>
             </ul>
             <div className="flex gap-5 mt-5">
-              <InstagramIcon className="w-5 h-5 hover:text-blue-400 cursor-pointer duration-300 transition"/>
-              <TwitterIcon className="w-5 h-5 hover:text-blue-400 cursor-pointer duration-300 transition"/>
-              <GithubIcon className="w-5 h-5 hover:text-blue-400 cursor-pointer duration-300 transition"/>
-              <LinkedinIcon className="w-5 h-5 hover:text-blue-400 cursor-pointer duration-300 transition"/>
+              <InstagramIcon className="w-5 h-5 hover:text-blue-400 cursor-pointer duration-300 transition" />
+              <TwitterIcon className="w-5 h-5 hover:text-blue-400 cursor-pointer duration-300 transition" />
+              <GithubIcon className="w-5 h-5 hover:text-blue-400 cursor-pointer duration-300 transition" />
+              <LinkedinIcon className="w-5 h-5 hover:text-blue-400 cursor-pointer duration-300 transition" />
             </div>
           </div>
           <div className="lg:col-span-1 md:col-span-1 col-span-1 mt-4 ">
