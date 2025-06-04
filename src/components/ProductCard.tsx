@@ -3,7 +3,6 @@
 import { Product } from "@/types/products";
 import Image from "next/image";
 import Button from "./Button";
-import { ShoppingCart } from "lucide-react";
 import { useAppDispatch } from "@/store/hooks";
 import { addToCart } from "@/store/cartSlice";
 
@@ -39,7 +38,6 @@ export default function ProductCard({ product }: ProductCardProps) {
       <p className="text-blue-500 font-bold">{price} تومان</p>
       <Button
         onClick={handleAddToCart}
-        icon={<ShoppingCart size={18} />}
         className="bg-blue-500 text-white hover:bg-blue-600"
       >
         افزودن به سبد خرید
