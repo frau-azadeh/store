@@ -6,7 +6,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "danger" | "call";
   size?: "xs" | "md" | "lg";
   children: ReactNode;
-  icon?: LucideIcon; 
+  icon?: LucideIcon;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({
   variant = "primary",
   size = "md",
   children,
-  icon: Icon, 
+  icon: Icon,
   ...props
 }) => {
   const variantClass = {
@@ -40,7 +40,7 @@ const Button: React.FC<ButtonProps> = ({
         className,
       )}
     >
-      {Icon && <Icon className="w-4 h-4" />} 
+      {Icon && <Icon className="w-4 h-4" />}
       {children}
     </button>
   );
