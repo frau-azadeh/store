@@ -5,6 +5,7 @@ import Image from "next/image";
 import Button from "./Button";
 import { useAppDispatch } from "@/store/hooks";
 import { addToCart } from "@/store/cartSlice";
+import { ShoppingCart } from "lucide-react";
 
 interface ProductCardProps {
   product: Product;
@@ -16,7 +17,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   const dispatch = useAppDispatch();
 
   const handleAddToCart = () => {
-    dispatch(addToCart({ ...product, price: Number(product.price) })); // تبدیل price به عدد
+    dispatch(addToCart({ ...product, price: Number(product.price) })); 
     console.log("محصول اضافه شد:", product);
   };
 
@@ -39,6 +40,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       <Button
         onClick={handleAddToCart}
         className="bg-blue-500 text-white hover:bg-blue-600"
+        icon={ShoppingCart}
       >
         افزودن به سبد خرید
       </Button>
