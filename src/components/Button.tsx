@@ -34,7 +34,7 @@ const Button: React.FC<ButtonProps> = ({
     <button
       {...props}
       className={clsx(
-        "rounded text-white duration-300 transition inline-flex items-center gap-2", // 👈 فاصله بین آیکن و متن
+        "rounded text-white duration-300 transition inline-flex items-center gap-2", 
         variantClass[variant],
         sizeClass[size],
         className,
