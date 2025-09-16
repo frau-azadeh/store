@@ -1,5 +1,6 @@
-import GoBackButton from "@/components/GoBackButton";
 import Image from "next/image";
+
+import GoBackButton from "@/components/GoBackButton";
 
 export default function NotFound() {
   return (

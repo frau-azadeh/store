@@ -2,9 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import productsData from "@/data/products.json";
-import { Product } from "@/types/products";
 import Marquee from "react-fast-marquee";
+
+import productsData from "@/data/products.json";
+
+import { Product } from "@/types/products";
 
 export default function CategoriesCarousel() {
   const products = productsData as Product[];

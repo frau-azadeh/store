@@ -1,6 +1,8 @@
 import productsData from "@/data/products.json";
-import ProductCard from "./ProductCard";
+
 import { Product } from "@/types/products";
+
+import ProductCard from "./ProductCard";
 
 export default function FeaturedProducts() {
   const products = productsData.slice(0, 3) as Product[];
