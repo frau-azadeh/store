@@ -1,11 +1,13 @@
 "use client";
 
-import { Product } from "@/types/products";
-import Image from "next/image";
-import Button from "./Button";
-import { useAppDispatch } from "@/store/hooks";
 import { addToCart } from "@/store/cartSlice";
+import { useAppDispatch } from "@/store/hooks";
 import { ShoppingCart } from "lucide-react";
+import Image from "next/image";
+
+import { Product } from "@/types/products";
+
+import Button from "./Button";
 
 interface ProductCardProps {
   product: Product;

@@ -1,5 +1,7 @@
-import clsx from "clsx";
 import React, { ButtonHTMLAttributes, ReactNode } from "react";
+
+import clsx from "clsx";
+
 import { LucideIcon } from "lucide-react";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

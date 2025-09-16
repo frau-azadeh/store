@@ -1,9 +1,11 @@
-import type { Metadata } from "next";
-import "@/app/globals.css";
-import "../styles/fonts.css";
 import { Providers } from "@/store/Providers";
+import type { Metadata } from "next";
+
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+
+import "../styles/fonts.css";
+import "@/app/globals.css";
 
 export const metadata: Metadata = {
   title: "فروشگاه ما",

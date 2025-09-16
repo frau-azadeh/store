@@ -1,11 +1,14 @@
 "use client";
 
-import { ShoppingCart, Search, Menu, X, User } from "lucide-react";
-import { useAppSelector } from "@/store/hooks";
 import { useEffect, useState } from "react";
-import { Product } from "@/types/products";
-import productsData from "@/data/products.json";
+
+import { useAppSelector } from "@/store/hooks";
+import { Menu, Search, ShoppingCart, User, X } from "lucide-react";
 import Link from "next/link";
+
+import productsData from "@/data/products.json";
+
+import { Product } from "@/types/products";
 
 export default function Navbar() {
   const cartItems = useAppSelector((state) => state.cart.items);

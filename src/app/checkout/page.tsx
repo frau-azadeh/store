@@ -1,7 +1,8 @@
 "use client";
 
-import { useAppSelector } from "@/store/hooks";
 import { useEffect, useState } from "react";
+
+import { useAppSelector } from "@/store/hooks";
 import Image from "next/image";
 
 export default function CheckoutPage() {
