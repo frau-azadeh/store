@@ -14,6 +14,7 @@
     "@hookform/resolvers": "^4.1.0",
     "@reduxjs/toolkit": "^2.5.1",
     "@tanstack/react-query": "^5.66.0",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "axios": "^1.7.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
